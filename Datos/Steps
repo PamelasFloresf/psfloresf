@@ -1,0 +1,30 @@
+1. Preparación de los datos 
+# Descargar las secuencias en formato FASTA desde la NCBI 
+# Realizar un alineamiento con el programa Muscle
+#Navegar hasta el directorio de Muscle 
+cd 
+# Ejecutar muscle 
+./muscle -in input.fasta -out output.fasta
+# Guardar el archivo formato FASTA
+
+2. Realizar el árbol 
+# Ejecutar IQTREE 
+./iqtree2.exe -h
+# Construcción del árbol 
+# Ejecutar IQ-TREE con el archivo de alineamiento
+./iqtree
+# Verificar los archivos generados
+echo "Archivos generados"
+
+3. Consideraciones 
+# Archivos generados importantes
+Después de ejecutar el script, deberías ver varios archivos generados por IQ-TREE. El más importante es:
+.treefile: Contiene el árbol filogenético.
+
+4. Visualización del árbol 
+# Usar FigTree:
+Descargar e instalar FigTree
+Abrir el archivo del árbol en FigTree:
+Abrir FigTree.
+En FigTree, selecciona File -> Open y navega hasta el archivo .treefile en la carpeta bin/
+FigTree cargará y mostrará el árbol filogenético.
