@@ -1,0 +1,407 @@
+Comandos
+pamef@PameFlores MINGW64 ~/Downloads
+$ cd iqtree-2.3.4-Windows1/
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1
+$ ls
+iqtree-2.3.4-Windows/
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1
+$ cd iqtree-2.3.4-Windows/
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows
+$ ls
+bin/  example.cf  example.nex  example.phy  models.nex
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows
+$ cd bin/
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows/bin
+$ ls
+iqtree2.exe*
+iqtree2-click.exe*
+libiomp5md.dll*
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.bionj
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.boottrees
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.ckp.gz
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.contree
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.iqtree
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.log
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.mldist
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.treefile
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.treefile.jpg
+pame
+pame.pub
+Alineamiento FASTA
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5864.064
+Optimal log-likelihood: -5864.064
+Rate parameters:  A-C: 1.68162  A-G: 10.44473  A-T: 4.54504  C-G: 0.83564  C-T: 20.27766  G-T: 1.00000
+Base frequencies:  A: 0.342  C: 0.217  G: 0.174  T: 0.266
+Gamma shape alpha: 0.144
+Parameters optimization took 1 rounds (0.026 sec)
+BEST SCORE FOUND : -5864.064
+Total tree length: 0.412
+
+Total number of iterations: 168
+CPU time used for tree search: 1.828 sec (0h:0m:1s)
+Wall-clock time used for tree search: 2.798 sec (0h:0m:2s)
+Total CPU time used: 1182.156 sec (0h:19m:42s)
+Total wall-clock time used: 2015.817 sec (0h:33m:35s)
+
+===> START BOOTSTRAP REPLICATE NUMBER 999
+
+Creating bootstrap alignment (seed: 186481)...
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -6315.045
+2. Current log-likelihood: -5941.467
+3. Current log-likelihood: -5934.717
+4. Current log-likelihood: -5934.419
+Optimal log-likelihood: -5934.416
+Rate parameters:  A-C: 1.47398  A-G: 8.74367  A-T: 4.95219  C-G: 0.11889  C-T: 22.00427  G-T: 1.00000
+Base frequencies:  A: 0.348  C: 0.228  G: 0.185  T: 0.240
+Gamma shape alpha: 0.101
+Parameters optimization took 4 rounds (0.089 sec)
+Wrote distance file to...
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0014454 secs
+Computing ML distances took 0.013642 sec (of wall-clock time) 0.015625 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 8.64e-005 secs
+Computing RapidNJ tree took 0.003992 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5931.694
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.162 second
+Computing log-likelihood of 98 initial trees ... 0.097 seconds
+Current best score: -5919.029
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5917.156
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -5916.348
+Iteration 10 / LogL: -5916.348 / Time: 0h:33m:36s
+Iteration 20 / LogL: -5926.146 / Time: 0h:33m:36s
+Finish initializing candidate tree set (8)
+Current best tree score: -5916.348 / CPU time: 0.564
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -5916.368 / Time: 0h:33m:36s (0h:0m:2s left)
+WARNING: NNI search needs unusual large number of steps (13) to converge!
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -5916.260
+WARNING: NNI search needs unusual large number of steps (13) to converge!
+Iteration 40 / LogL: -5917.219 / Time: 0h:33m:36s (0h:0m:1s left)
+Iteration 50 / LogL: -5917.321 / Time: 0h:33m:37s (0h:0m:1s left)
+Iteration 60 / LogL: -5927.608 / Time: 0h:33m:37s (0h:0m:1s left)
+Iteration 70 / LogL: -5917.202 / Time: 0h:33m:37s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 79: -5916.260
+Iteration 80 / LogL: -5916.462 / Time: 0h:33m:37s (0h:0m:1s left)
+Iteration 90 / LogL: -5916.360 / Time: 0h:33m:37s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -5916.260
+Iteration 100 / LogL: -5917.328 / Time: 0h:33m:37s (0h:0m:1s left)
+Iteration 110 / LogL: -5916.261 / Time: 0h:33m:37s (0h:0m:1s left)
+WARNING: NNI search needs unusual large number of steps (13) to converge!
+Iteration 120 / LogL: -5944.306 / Time: 0h:33m:37s (0h:0m:1s left)
+Iteration 130 / LogL: -5916.260 / Time: 0h:33m:38s (0h:0m:0s left)
+Iteration 140 / LogL: -5926.352 / Time: 0h:33m:38s (0h:0m:0s left)
+Iteration 150 / LogL: -5997.136 / Time: 0h:33m:38s (0h:0m:0s left)
+Iteration 160 / LogL: -5917.807 / Time: 0h:33m:38s (0h:0m:0s left)
+Iteration 170 / LogL: -5978.553 / Time: 0h:33m:38s (0h:0m:0s left)
+Iteration 180 / LogL: -5916.260 / Time: 0h:33m:38s (0h:0m:-1s left)
+TREE SEARCH COMPLETED AFTER 180 ITERATIONS / Time: 0h:33m:38s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5916.260
+Optimal log-likelihood: -5916.255
+Rate parameters:  A-C: 1.17284  A-G: 8.64526  A-T: 4.74260  C-G: 0.10962  C-T: 22.34168  G-T: 1.00000
+Base frequencies:  A: 0.348  C: 0.228  G: 0.185  T: 0.240
+Gamma shape alpha: 0.104
+Parameters optimization took 1 rounds (0.029 sec)
+BEST SCORE FOUND : -5916.255
+Total tree length: 0.405
+
+Total number of iterations: 180
+CPU time used for tree search: 1.594 sec (0h:0m:1s)
+Wall-clock time used for tree search: 2.867 sec (0h:0m:2s)
+Total CPU time used: 1183.781 sec (0h:19m:43s)
+Total wall-clock time used: 2018.950 sec (0h:33m:38s)
+
+===> START BOOTSTRAP REPLICATE NUMBER 1000
+
+Creating bootstrap alignment (seed: 186482)...
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -6157.811
+2. Current log-likelihood: -5828.156
+3. Current log-likelihood: -5825.156
+Optimal log-likelihood: -5825.104
+Rate parameters:  A-C: 2.23231  A-G: 10.15880  A-T: 6.09786  C-G: 0.53208  C-T: 26.95876  G-T: 1.00000
+Base frequencies:  A: 0.340  C: 0.207  G: 0.184  T: 0.269
+Gamma shape alpha: 0.127
+Parameters optimization took 3 rounds (0.078 sec)
+Wrote distance file to...
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0019223 secs
+Computing ML distances took 0.014313 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 8.56e-005 secs
+Computing RapidNJ tree took 0.005740 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5834.099
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.171 second
+Computing log-likelihood of 97 initial trees ... 0.122 seconds
+Current best score: -5825.104
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5824.401
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -5823.312
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -5821.493
+Iteration 10 / LogL: -5821.496 / Time: 0h:33m:39s
+Iteration 20 / LogL: -5825.256 / Time: 0h:33m:39s
+Finish initializing candidate tree set (6)
+Current best tree score: -5821.493 / CPU time: 0.588
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -5821.493
+Iteration 30 / LogL: -5845.393 / Time: 0h:33m:39s (0h:0m:2s left)
+Iteration 40 / LogL: -5825.176 / Time: 0h:33m:40s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -5821.493
+Iteration 50 / LogL: -5821.493 / Time: 0h:33m:40s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -5821.493
+Iteration 60 / LogL: -5823.458 / Time: 0h:33m:40s (0h:0m:1s left)
+Iteration 70 / LogL: -5821.520 / Time: 0h:33m:40s (0h:0m:0s left)
+Iteration 80 / LogL: -5821.514 / Time: 0h:33m:40s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -5821.493
+Iteration 90 / LogL: -5821.978 / Time: 0h:33m:40s (0h:0m:0s left)
+Iteration 100 / LogL: -5821.530 / Time: 0h:33m:40s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -5821.493
+Iteration 110 / LogL: -5821.978 / Time: 0h:33m:41s (0h:0m:-1s left)
+TREE SEARCH COMPLETED AFTER 110 ITERATIONS / Time: 0h:33m:41s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5821.493
+Optimal log-likelihood: -5821.492
+Rate parameters:  A-C: 3.02373  A-G: 12.84941  A-T: 7.32406  C-G: 0.23028  C-T: 35.30856  G-T: 1.00000
+Base frequencies:  A: 0.340  C: 0.207  G: 0.184  T: 0.269
+Gamma shape alpha: 0.132
+Parameters optimization took 1 rounds (0.025 sec)
+BEST SCORE FOUND : -5821.492
+Total tree length: 0.442
+
+Total number of iterations: 110
+CPU time used for tree search: 1.328 sec (0h:0m:1s)
+Wall-clock time used for tree search: 2.027 sec (0h:0m:2s)
+Total CPU time used: 1185.109 sec (0h:19m:45s)
+Total wall-clock time used: 2021.229 sec (0h:33m:41s)
+
+===> COMPUTE CONSENSUS TREE FROM 1000 BOOTSTRAP TREES
+
+Reading tree(s) file muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.boottrees ...
+1000 tree(s) loaded (0 rooted and 1000 unrooted)
+0 split(s) discarded because frequency <= -1.000
+124 splits found
+Consensus tree written to muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.contree
+
+===> START ANALYSIS ON THE ORIGINAL ALIGNMENT
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -6104.239
+2. Current log-likelihood: -5774.639
+3. Current log-likelihood: -5772.076
+Optimal log-likelihood: -5772.049
+Rate parameters:  A-C: 1.02964  A-G: 6.26056  A-T: 3.51120  C-G: 0.15519  C-T: 16.15507  G-T: 1.00000
+Base frequencies:  A: 0.344  C: 0.213  G: 0.182  T: 0.262
+Gamma shape alpha: 0.130
+Parameters optimization took 3 rounds (0.101 sec)
+Wrote distance file to...
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0012794 secs
+Computing ML distances took 0.013407 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 7.51e-005 secs
+Computing RapidNJ tree took 0.005082 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5779.414
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.132 second
+Computing log-likelihood of 98 initial trees ... 0.127 seconds
+Current best score: -5771.250
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5769.547
+Iteration 10 / LogL: -5769.561 / Time: 0h:33m:41s
+Iteration 20 / LogL: -5770.291 / Time: 0h:33m:42s
+Finish initializing candidate tree set (4)
+Current best tree score: -5769.547 / CPU time: 0.456
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -5774.585 / Time: 0h:33m:42s (0h:0m:2s left)
+Iteration 40 / LogL: -5868.946 / Time: 0h:33m:42s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -5769.547
+Iteration 50 / LogL: -5770.053 / Time: 0h:33m:42s (0h:0m:1s left)
+Iteration 60 / LogL: -5770.188 / Time: 0h:33m:42s (0h:0m:0s left)
+Iteration 70 / LogL: -5789.396 / Time: 0h:33m:42s (0h:0m:0s left)
+Iteration 80 / LogL: -5770.284 / Time: 0h:33m:42s (0h:0m:0s left)
+Iteration 90 / LogL: -5770.279 / Time: 0h:33m:43s (0h:0m:0s left)
+Iteration 100 / LogL: -5770.183 / Time: 0h:33m:43s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:33m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5769.547
+Optimal log-likelihood: -5769.546
+Rate parameters:  A-C: 1.12230  A-G: 6.73057  A-T: 3.80605  C-G: 0.16784  C-T: 17.62920  G-T: 1.00000
+Base frequencies:  A: 0.344  C: 0.213  G: 0.182  T: 0.262
+Gamma shape alpha: 0.132
+Parameters optimization took 1 rounds (0.025 sec)
+BEST SCORE FOUND : -5769.546
+Total tree length: 0.400
+
+Total number of iterations: 102
+CPU time used for tree search: 1.172 sec (0h:0m:1s)
+Wall-clock time used for tree search: 1.745 sec (0h:0m:1s)
+Total CPU time used: 1186.391 sec (0h:19m:46s)
+Total wall-clock time used: 2023.370 sec (0h:33m:43s)
+Reading input trees file muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.contree
+Log-likelihood of consensus tree: -5769.550
+
+===> ASSIGN BOOTSTRAP SUPPORTS TO THE TREE FROM ORIGINAL ALIGNMENT
+
+Reading tree muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.treefile ...
+unrooted tree detected
+Reading tree(s) file muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.boottrees ...
+1000 tree(s) loaded (0 rooted and 1000 unrooted)
+Rescaling split weights by 0.100
+124 splits found
+Creating bootstrap support values...
+Tree with assigned support written to muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.treefile
+
+Analysis results written to:
+  IQ-TREE report:                muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.iqtree
+  Maximum-likelihood tree:       muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.treefile
+  Likelihood distances:          muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.mldist
+  Screen log file:               muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.log
+
+Total CPU time for bootstrap: 1186.438 seconds.
+Total wall-clock time for bootstrap: 2023.583 seconds.
+
+Non-parametric bootstrap results written to:
+  Bootstrap trees:          muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.boottrees
+  Consensus tree:           muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.contree
+
+Date and Time: Wed Jun 26 20:08:53 2024
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows/bin
+$ ls
+iqtree2.exe*
+iqtree2-click.exe*
+libiomp5md.dll*
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.bionj
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.boottrees
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.ckp.gz
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.contree
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.iqtree
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.log
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.mldist
+muscle-I20240627-010311-0414-16901573-p1m.aln-fasta.treefile
+
+Key
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows/bin
+$ git remote add origin git@github.com:PamelasFloresf/Planets.git
+fatal: not a git repository (or any of the parent directories): .git
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows/bin
+$ git remote add origin git@github.com:PamelasFloresf/Final-Proyect.g
+it
+fatal: not a git repository (or any of the parent directories): .git
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows/bin
+$ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows/bin
+$ git config --global PamelasFloresf
+error: key does not contain a section: PamelasFloresf
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows/bin
+$ ssh-keygen -t ed25519 -C "psfloresf@puce.edu.ec"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/pamef/.ssh/id_ed25519): pame
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in pame
+Your public key has been saved in pame.pub
+The key fingerprint is:
+SHA256:1B1isI1cL7NmwPh6mQwMCLjjxW2Wsd42bmv9ryXSGkM psfloresf@puce.edu.ec
+The key's randomart image is:
++--[ED25519 256]--+
+|o       ..+ .    |
+|.. . . + B + .   |
+| .o o = B = o    |
+|o  o O o . +     |
+|... + + SE+      |
+| .   . B.=.      |
+|      + B+ o .   |
+|       = .= o    |
+|      o....oo.   |
++----[SHA256]-----+
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows/bin
+$ nano ~/.ssh/config
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows/bin
+$ nano ~/.ssh/config
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows/bin
+$ nano ~/.ssh/config
+
+pamef@PameFlores MINGW64 ~/Downloads/iqtree-2.3.4-Windows1/iqtree-2.3.4-Windows/bin
+$ ls -al ~/.ssh
+total 11
+drwxr-xr-x 1 pamef 197609   0 Jun 26 21:01 ./
+drwxr-xr-x 1 pamef 197609   0 Jun 26 16:18 ../
+-rw-r--r-- 1 pamef 197609 145 Jun 26 21:02 config
+-rw-r--r-- 1 pamef 197609 422 Jun 10 17:57 known_hosts
+-rw-r--r-- 1 pamef 197609 120 May  6 15:25 known_hosts.old
